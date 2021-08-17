@@ -38,9 +38,18 @@ var secondNumber = 0.2
 var total = firstNumber + secondNumber
 total = total.toFixed(2)
 total = parseFloat(total)
-console.log(total)
+// console.log(total)
 
 
+// modulus 
+var mango = 17;
+var hungryPerson = 3;
+var remaining = mango % hungryPerson
+console.log(remaining)
+
+
+var dividing = mango / hungryPerson
+console.log(dividing)
 
 
 
