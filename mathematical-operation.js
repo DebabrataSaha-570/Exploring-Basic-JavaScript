@@ -3,7 +3,7 @@ var onionPrice = 50;
 var eggPrice = 30;
 
 var totalPrice = onionPrice + eggPrice;
-console.log(totalPrice)
+// console.log(totalPrice)
 
 
 // বিয়োগফল 
@@ -11,7 +11,7 @@ var nescafeCoffeeClassicPrice = 170;
 var nescafeCoffeeGoldPrice = 300;
 
 var PriceDifference = nescafeCoffeeGoldPrice - nescafeCoffeeClassicPrice
-console.log(PriceDifference)
+// console.log(PriceDifference)
 
 
 // গুণফল 
@@ -20,7 +20,7 @@ var shirtPrice = 600;
 var shirtQuantity = 7;
 
 var totalShirtPrice = 600 * 7;
-console.log(totalShirtPrice)
+// console.log(totalShirtPrice)
 
 
 // ভাগ 
@@ -29,11 +29,16 @@ var appleQuantity = 100;
 var peopleNumber = 20;
 
 var GetApple = 100 / 20;
-console.log(GetApple)
+// console.log(GetApple)
 
 
-
-
+// special edition
+var firstNumber = 0.1
+var secondNumber = 0.2
+var total = firstNumber + secondNumber
+total = total.toFixed(2)
+total = parseFloat(total)
+console.log(total)
 
 
 
